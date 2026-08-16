@@ -14,8 +14,9 @@ venv/
 .venv/
 env/
 
-data/*.csv
+# Ignore large data files but keep worldcities.csv
 data/*.json
+data/!worldcities.csv
 
 .DS_Store
 Thumbs.db
